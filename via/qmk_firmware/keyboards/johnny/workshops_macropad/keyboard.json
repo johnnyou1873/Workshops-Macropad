@@ -18,6 +18,7 @@
     "cols": ["GP3", "GP4", "GP2"]
   },
   "encoder": {
+    "enabled": true,
     "rotary": [
       {
         "pin_a": "GP28",
