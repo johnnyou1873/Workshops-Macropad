@@ -1,9 +1,6 @@
 # Workshops-Macropad
 A custom 6-key keyboard with rotary encoder, 3D-printed case with integrated plate mounting, and VIA firmware.
 
-## Note
-RGB is implemented on the PCB but has not been tested. To leverage the GPIO pins fully, custom firmware is needed.
-
 ## Bill of Materials
 ### Required
  - 1x Seeed Studio XIAO RP2040
@@ -44,6 +41,10 @@ RGB is implemented on the PCB but has not been tested. To leverage the GPIO pins
 19. Go to the "Design" tab and upload the .json file.
 20. Go to the "Configure" tab. After authorizing the device, the macropad is now configurable!
 
-### Note
+### Notes
 
 On MacOS, plugging in the macropad for the first time after programming may trigger a message about keyboard layout. Because the macropad has a nonstandard layout, this message can be ignored. The keyboard should work with the configuration set with VIA.
+
+RGB is implemented on the PCB but has not been tested.
+
+To leverage the GPIO pins fully, custom firmware is needed.
